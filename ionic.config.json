@@ -1,6 +1,8 @@
 {
   "name": "satchel",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular",
   "id": "890a3745"
 }

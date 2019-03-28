@@ -9,7 +9,9 @@
 <ion-content color="dark">
   <div class="ion-padding">
     The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+    <p>If you get lost, the
+      <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a>
+      will be your guide.</p>
   </div>
   <div class="ion-padding">
     <ion-list inset="true" mode="ios">
@@ -21,11 +23,13 @@
         <ion-label position="stacked">Item Quantity</ion-label>
         <ion-input type="number"></ion-input>
       </ion-item>
-      <ion-item color="primary" lines="inset" text-wrap>
+      <ion-item color="primary" lines="inset" text-wrap="text-wrap">
         <ion-label position="stacked">Item Description</ion-label>
         <ion-textarea></ion-textarea>
       </ion-item>
-      <ion-button color="warning" expand="block">Save Item</ion-button>
+      <ion-item color="dark">
+        <ion-button color="warning" size="large" slot="end">Save Item</ion-button>
+      </ion-item>
     </ion-list>
   </div>
 </ion-content>

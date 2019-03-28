@@ -1,14 +1,31 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="primary" mode="ios">
     <ion-title>
       Satchel
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content color="dark">
   <div class="ion-padding">
     The world is your oyster.
     <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+  </div>
+  <div class="ion-padding">
+    <ion-list inset="true" mode="ios">
+      <ion-item color="primary" lines="inset">
+        <ion-label position="stacked">Item Name</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item color="primary" lines="inset">
+        <ion-label position="stacked">Item Quantity</ion-label>
+        <ion-input type="number"></ion-input>
+      </ion-item>
+      <ion-item color="primary" lines="inset" text-wrap>
+        <ion-label position="stacked">Item Description</ion-label>
+        <ion-textarea></ion-textarea>
+      </ion-item>
+      <ion-button color="warning" expand="block">Save Item</ion-button>
+    </ion-list>
   </div>
 </ion-content>
